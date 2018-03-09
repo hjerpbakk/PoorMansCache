@@ -8,11 +8,11 @@ using Newtonsoft.Json;
 namespace PoorMansCacheClient
 {
     // TODO: Endre navn
-    public class PoorMansCacheClient
+    public class CacheClient
     {
         readonly HttpClient httpClient;
 
-        public PoorMansCacheClient(string baseUrl)
+        public CacheClient(string baseUrl)
         {
             var url = $"{baseUrl}/api/Cache/";
             httpClient = new HttpClient
