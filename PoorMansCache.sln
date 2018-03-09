@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoorMansCache", "PoorMansCa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0D0E1099-5F42-46FA-9218-E893D46A6F9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoorMansCacheClient", "PoorMansCacheClient\PoorMansCacheClient.csproj", "{0840B5DD-EA0C-4AF4-9E08-984F8CD2EB5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,5 +17,9 @@ Global
 		{795BA490-DFA0-4F08-A89C-47353E5E6AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{795BA490-DFA0-4F08-A89C-47353E5E6AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{795BA490-DFA0-4F08-A89C-47353E5E6AE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0840B5DD-EA0C-4AF4-9E08-984F8CD2EB5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0840B5DD-EA0C-4AF4-9E08-984F8CD2EB5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0840B5DD-EA0C-4AF4-9E08-984F8CD2EB5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0840B5DD-EA0C-4AF4-9E08-984F8CD2EB5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

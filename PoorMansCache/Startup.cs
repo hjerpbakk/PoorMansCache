@@ -25,8 +25,10 @@ namespace PoorMansCache
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddMemoryCache();
 
             services.AddSingleton<VersionService>();
+            services.AddSingleton<MemoryCacheService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
