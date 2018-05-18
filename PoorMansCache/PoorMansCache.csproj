@@ -11,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="11.0.1" />
-    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
   </ItemGroup>
 
   <ItemGroup>
@@ -20,11 +20,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="VERSION.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="VERSION.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <None Include="..\VERSION.txt">
+      <Link>VERSION.txt</Link>
+    </None>
   </ItemGroup>
 </Project>
